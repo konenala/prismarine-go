@@ -1,3 +1,5 @@
+//go:build ignore
+
 // extractor.go - One-time tool to extract existing Go data to JSON format
 // Usage: go run extractor.go
 package main

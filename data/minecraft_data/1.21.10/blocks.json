@@ -327,7 +327,7 @@
     "id": 275,
     "name": "basalt",
     "solid": true,
-    "hardness": 1.25
+    "hardness": 1.2
   },
   "beacon": {
     "id": 377,
@@ -549,7 +549,7 @@
     "id": 467,
     "name": "black_terracotta",
     "solid": true,
-    "hardness": 1.25
+    "hardness": 1.2
   },
   "black_wall_banner": {
     "id": 562,
@@ -675,7 +675,7 @@
     "id": 463,
     "name": "blue_terracotta",
     "solid": true,
-    "hardness": 1.25
+    "hardness": 1.2
   },
   "blue_wall_banner": {
     "id": 558,
@@ -837,7 +837,7 @@
     "id": 464,
     "name": "brown_terracotta",
     "solid": true,
-    "hardness": 1.25
+    "hardness": 1.2
   },
   "brown_wall_banner": {
     "id": 559,
@@ -915,7 +915,7 @@
     "id": 958,
     "name": "calcite",
     "solid": true,
-    "hardness": 0.75
+    "hardness": 0.8
   },
   "calibrated_sculk_sensor": {
     "id": 962,
@@ -1635,7 +1635,7 @@
     "id": 461,
     "name": "cyan_terracotta",
     "solid": true,
-    "hardness": 1.25
+    "hardness": 1.2
   },
   "cyan_wall_banner": {
     "id": 556,
@@ -2073,7 +2073,7 @@
     "id": 634,
     "name": "dirt_path",
     "solid": true,
-    "hardness": 0.65
+    "hardness": 0.7
   },
   "dispenser": {
     "id": 105,
@@ -2493,7 +2493,7 @@
     "id": 459,
     "name": "gray_terracotta",
     "solid": true,
-    "hardness": 1.25
+    "hardness": 1.2
   },
   "gray_wall_banner": {
     "id": 554,
@@ -2577,7 +2577,7 @@
     "id": 465,
     "name": "green_terracotta",
     "solid": true,
-    "hardness": 1.25
+    "hardness": 1.2
   },
   "green_wall_banner": {
     "id": 560,
@@ -2673,7 +2673,7 @@
     "id": 322,
     "name": "infested_chiseled_stone_bricks",
     "solid": true,
-    "hardness": 0.75
+    "hardness": 0.8
   },
   "infested_cobblestone": {
     "id": 318,
@@ -2685,7 +2685,7 @@
     "id": 321,
     "name": "infested_cracked_stone_bricks",
     "solid": true,
-    "hardness": 0.75
+    "hardness": 0.8
   },
   "infested_deepslate": {
     "id": 1080,
@@ -2697,19 +2697,19 @@
     "id": 320,
     "name": "infested_mossy_stone_bricks",
     "solid": true,
-    "hardness": 0.75
+    "hardness": 0.8
   },
   "infested_stone": {
     "id": 317,
     "name": "infested_stone",
     "solid": true,
-    "hardness": 0.75
+    "hardness": 0.8
   },
   "infested_stone_bricks": {
     "id": 319,
     "name": "infested_stone_bricks",
     "solid": true,
-    "hardness": 0.75
+    "hardness": 0.8
   },
   "iron_bars": {
     "id": 326,
@@ -3015,7 +3015,7 @@
     "id": 455,
     "name": "light_blue_terracotta",
     "solid": true,
-    "hardness": 1.25
+    "hardness": 1.2
   },
   "light_blue_wall_banner": {
     "id": 550,
@@ -3099,7 +3099,7 @@
     "id": 460,
     "name": "light_gray_terracotta",
     "solid": true,
-    "hardness": 1.25
+    "hardness": 1.2
   },
   "light_gray_wall_banner": {
     "id": 555,
@@ -3213,7 +3213,7 @@
     "id": 457,
     "name": "lime_terracotta",
     "solid": true,
-    "hardness": 1.25
+    "hardness": 1.2
   },
   "lime_wall_banner": {
     "id": 552,
@@ -3309,7 +3309,7 @@
     "id": 454,
     "name": "magenta_terracotta",
     "solid": true,
-    "hardness": 1.25
+    "hardness": 1.2
   },
   "magenta_wall_banner": {
     "id": 549,
@@ -3849,7 +3849,7 @@
     "id": 453,
     "name": "orange_terracotta",
     "solid": true,
-    "hardness": 1.25
+    "hardness": 1.2
   },
   "orange_tulip": {
     "id": 164,
@@ -4167,7 +4167,7 @@
     "id": 458,
     "name": "pink_terracotta",
     "solid": true,
-    "hardness": 1.25
+    "hardness": 1.2
   },
   "pink_tulip": {
     "id": 166,
@@ -4257,7 +4257,7 @@
     "id": 276,
     "name": "polished_basalt",
     "solid": true,
-    "hardness": 1.25
+    "hardness": 1.2
   },
   "polished_blackstone": {
     "id": 888,
@@ -4641,7 +4641,7 @@
     "id": 960,
     "name": "powder_snow",
     "solid": false,
-    "hardness": 0.25
+    "hardness": 0.2
   },
   "powder_snow_cauldron": {
     "id": 359,
@@ -4779,7 +4779,7 @@
     "id": 462,
     "name": "purple_terracotta",
     "solid": true,
-    "hardness": 1.25
+    "hardness": 1.2
   },
   "purple_wall_banner": {
     "id": 557,
@@ -5007,7 +5007,7 @@
     "id": 466,
     "name": "red_terracotta",
     "solid": true,
-    "hardness": 1.25
+    "hardness": 1.2
   },
   "red_tulip": {
     "id": 163,
@@ -5289,7 +5289,7 @@
     "id": 1081,
     "name": "smooth_basalt",
     "solid": true,
-    "hardness": 1.25
+    "hardness": 1.2
   },
   "smooth_quartz": {
     "id": 594,
@@ -5769,13 +5769,13 @@
     "id": 41,
     "name": "suspicious_gravel",
     "solid": true,
-    "hardness": 0.25
+    "hardness": 0.2
   },
   "suspicious_sand": {
     "id": 38,
     "name": "suspicious_sand",
     "solid": true,
-    "hardness": 0.25
+    "hardness": 0.2
   },
   "sweet_berry_bush": {
     "id": 821,
@@ -5811,7 +5811,7 @@
     "id": 522,
     "name": "terracotta",
     "solid": true,
-    "hardness": 1.25
+    "hardness": 1.2
   },
   "test_block": {
     "id": 867,
@@ -6489,7 +6489,7 @@
     "id": 452,
     "name": "white_terracotta",
     "solid": true,
-    "hardness": 1.25
+    "hardness": 1.2
   },
   "white_tulip": {
     "id": 165,
@@ -6603,7 +6603,7 @@
     "id": 456,
     "name": "yellow_terracotta",
     "solid": true,
-    "hardness": 1.25
+    "hardness": 1.2
   },
   "yellow_wall_banner": {
     "id": 551,

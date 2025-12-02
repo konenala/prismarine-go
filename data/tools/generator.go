@@ -157,19 +157,19 @@ func main() {
 	fmt.Printf("Generating Go code from %s data...\n", version)
 
 	// Generate blocks.go
-	if err := generateBlocks(versionDir, version, baseDir); err != nil {
+	if err := generateBlocks(versionDir, version); err != nil {
 		fmt.Printf("❌ Error generating blocks: %v\n", err)
 		os.Exit(1)
 	}
 
 	// Generate items.go
-	if err := generateItems(versionDir, version, baseDir); err != nil {
+	if err := generateItems(versionDir, version); err != nil {
 		fmt.Printf("❌ Error generating items: %v\n", err)
 		os.Exit(1)
 	}
 
 	// Generate entities.go
-	if err := generateEntities(versionDir, version, baseDir); err != nil {
+	if err := generateEntities(versionDir, version); err != nil {
 		fmt.Printf("❌ Error generating entities: %v\n", err)
 		os.Exit(1)
 	}
@@ -213,7 +213,13 @@ func generateBlocks(versionDir, version string) error {
 	if err != nil {
 		return err
 	}
-	defer file.Close()
+	defer func(file *os.File) {
+		err := file.Close()
+		if err != nil {
+			fmt.Printf("❌ Error closing file: %v\n", err)
+			os.Exit(1)
+		}
+	}(file)
 
 	return tmpl.Execute(file, map[string]interface{}{
 		"Version": version,
@@ -256,7 +262,13 @@ func generateItems(versionDir, version string) error {
 	if err != nil {
 		return err
 	}
-	defer file.Close()
+	defer func(file *os.File) {
+		err := file.Close()
+		if err != nil {
+			fmt.Printf("❌ Error closing file: %v\n", err)
+			os.Exit(1)
+		}
+	}(file)
 
 	return tmpl.Execute(file, map[string]interface{}{
 		"Version": version,
@@ -299,7 +311,13 @@ func generateEntities(versionDir, version string) error {
 	if err != nil {
 		return err
 	}
-	defer file.Close()
+	defer func(file *os.File) {
+		err := file.Close()
+		if err != nil {
+			fmt.Printf("❌ Error closing file: %v\n", err)
+			os.Exit(1)
+		}
+	}(file)
 
 	return tmpl.Execute(file, map[string]interface{}{
 		"Version":  version,
