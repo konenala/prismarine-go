@@ -143,13 +143,11 @@ func main() {
 	version := "1.21.10"
 
 	// Determine base directory (works both when run directly and via go generate)
-	baseDir := ".."
-	if _, err := os.Stat(filepath.Join("..", "tools")); os.IsNotExist(err) {
-		// We're being run from tools/ directory
+	// Check if minecraft_data exists in current directory
+	baseDir := "."
+	if _, err := os.Stat("minecraft_data"); os.IsNotExist(err) {
+		// minecraft_data not in current dir, we're in tools/
 		baseDir = ".."
-	} else {
-		// We're being run from data/ directory via go generate
-		baseDir = "."
 	}
 
 	versionDir := filepath.Join(baseDir, "minecraft_data", version)
