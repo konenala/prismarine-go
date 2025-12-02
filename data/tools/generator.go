@@ -157,19 +157,19 @@ func main() {
 	fmt.Printf("Generating Go code from %s data...\n", version)
 
 	// Generate blocks.go
-	if err := generateBlocks(versionDir, version); err != nil {
+	if err := generateBlocks(versionDir, version, baseDir); err != nil {
 		fmt.Printf("❌ Error generating blocks: %v\n", err)
 		os.Exit(1)
 	}
 
 	// Generate items.go
-	if err := generateItems(versionDir, version); err != nil {
+	if err := generateItems(versionDir, version, baseDir); err != nil {
 		fmt.Printf("❌ Error generating items: %v\n", err)
 		os.Exit(1)
 	}
 
 	// Generate entities.go
-	if err := generateEntities(versionDir, version); err != nil {
+	if err := generateEntities(versionDir, version, baseDir); err != nil {
 		fmt.Printf("❌ Error generating entities: %v\n", err)
 		os.Exit(1)
 	}
@@ -177,7 +177,7 @@ func main() {
 	fmt.Println("✅ Code generation complete!")
 }
 
-func generateBlocks(versionDir, version string) error {
+func generateBlocks(versionDir, version, baseDir string) error {
 	// Read JSON
 	data, err := os.ReadFile(filepath.Join(versionDir, "blocks.json"))
 	if err != nil {
@@ -208,7 +208,7 @@ func generateBlocks(versionDir, version string) error {
 		return err
 	}
 
-	outputFile := filepath.Join("..", "blocks.go")
+	outputFile := filepath.Join(baseDir, "blocks.go")
 	file, err := os.Create(outputFile)
 	if err != nil {
 		return err
@@ -227,7 +227,7 @@ func generateBlocks(versionDir, version string) error {
 	})
 }
 
-func generateItems(versionDir, version string) error {
+func generateItems(versionDir, version, baseDir string) error {
 	// Read JSON
 	data, err := os.ReadFile(filepath.Join(versionDir, "items.json"))
 	if err != nil {
@@ -257,7 +257,7 @@ func generateItems(versionDir, version string) error {
 		return err
 	}
 
-	outputFile := filepath.Join("..", "items.go")
+	outputFile := filepath.Join(baseDir, "items.go")
 	file, err := os.Create(outputFile)
 	if err != nil {
 		return err
@@ -276,7 +276,7 @@ func generateItems(versionDir, version string) error {
 	})
 }
 
-func generateEntities(versionDir, version string) error {
+func generateEntities(versionDir, version, baseDir string) error {
 	// Read JSON
 	data, err := os.ReadFile(filepath.Join(versionDir, "entities.json"))
 	if err != nil {
@@ -306,7 +306,7 @@ func generateEntities(versionDir, version string) error {
 		return err
 	}
 
-	outputFile := filepath.Join("..", "entities.go")
+	outputFile := filepath.Join(baseDir, "entities.go")
 	file, err := os.Create(outputFile)
 	if err != nil {
 		return err
