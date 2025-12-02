@@ -1,0 +1,908 @@
+{
+  "acacia_boat": {
+    "id": 0,
+    "name": "acacia_boat",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "acacia_chest_boat": {
+    "id": 1,
+    "name": "acacia_chest_boat",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "allay": {
+    "id": 2,
+    "name": "allay",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "area_effect_cloud": {
+    "id": 3,
+    "name": "area_effect_cloud",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "armadillo": {
+    "id": 4,
+    "name": "armadillo",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "armor_stand": {
+    "id": 5,
+    "name": "armor_stand",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "arrow": {
+    "id": 6,
+    "name": "arrow",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "axolotl": {
+    "id": 7,
+    "name": "axolotl",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "bamboo_chest_raft": {
+    "id": 8,
+    "name": "bamboo_chest_raft",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "bamboo_raft": {
+    "id": 9,
+    "name": "bamboo_raft",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "bat": {
+    "id": 10,
+    "name": "bat",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "bee": {
+    "id": 11,
+    "name": "bee",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "birch_boat": {
+    "id": 12,
+    "name": "birch_boat",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "birch_chest_boat": {
+    "id": 13,
+    "name": "birch_chest_boat",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "blaze": {
+    "id": 14,
+    "name": "blaze",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "block_display": {
+    "id": 15,
+    "name": "block_display",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "bogged": {
+    "id": 16,
+    "name": "bogged",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "breeze": {
+    "id": 17,
+    "name": "breeze",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "breeze_wind_charge": {
+    "id": 18,
+    "name": "breeze_wind_charge",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "camel": {
+    "id": 19,
+    "name": "camel",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "cat": {
+    "id": 20,
+    "name": "cat",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "cave_spider": {
+    "id": 21,
+    "name": "cave_spider",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "cherry_boat": {
+    "id": 22,
+    "name": "cherry_boat",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "cherry_chest_boat": {
+    "id": 23,
+    "name": "cherry_chest_boat",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "chest_minecart": {
+    "id": 24,
+    "name": "chest_minecart",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "chicken": {
+    "id": 25,
+    "name": "chicken",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "cod": {
+    "id": 26,
+    "name": "cod",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "command_block_minecart": {
+    "id": 27,
+    "name": "command_block_minecart",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "cow": {
+    "id": 28,
+    "name": "cow",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "creaking": {
+    "id": 29,
+    "name": "creaking",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "creeper": {
+    "id": 30,
+    "name": "creeper",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "dark_oak_boat": {
+    "id": 31,
+    "name": "dark_oak_boat",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "dark_oak_chest_boat": {
+    "id": 32,
+    "name": "dark_oak_chest_boat",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "dolphin": {
+    "id": 33,
+    "name": "dolphin",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "donkey": {
+    "id": 34,
+    "name": "donkey",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "dragon_fireball": {
+    "id": 35,
+    "name": "dragon_fireball",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "drowned": {
+    "id": 36,
+    "name": "drowned",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "egg": {
+    "id": 37,
+    "name": "egg",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "elder_guardian": {
+    "id": 38,
+    "name": "elder_guardian",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "end_crystal": {
+    "id": 43,
+    "name": "end_crystal",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "ender_dragon": {
+    "id": 41,
+    "name": "ender_dragon",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "ender_pearl": {
+    "id": 42,
+    "name": "ender_pearl",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "enderman": {
+    "id": 39,
+    "name": "enderman",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "endermite": {
+    "id": 40,
+    "name": "endermite",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "evoker": {
+    "id": 44,
+    "name": "evoker",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "evoker_fangs": {
+    "id": 45,
+    "name": "evoker_fangs",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "experience_bottle": {
+    "id": 46,
+    "name": "experience_bottle",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "experience_orb": {
+    "id": 47,
+    "name": "experience_orb",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "eye_of_ender": {
+    "id": 48,
+    "name": "eye_of_ender",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "falling_block": {
+    "id": 49,
+    "name": "falling_block",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "fireball": {
+    "id": 50,
+    "name": "fireball",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "firework_rocket": {
+    "id": 51,
+    "name": "firework_rocket",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "fishing_bobber": {
+    "id": 150,
+    "name": "fishing_bobber",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "fox": {
+    "id": 52,
+    "name": "fox",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "frog": {
+    "id": 53,
+    "name": "frog",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "furnace_minecart": {
+    "id": 54,
+    "name": "furnace_minecart",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "ghast": {
+    "id": 55,
+    "name": "ghast",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "giant": {
+    "id": 57,
+    "name": "giant",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "glow_item_frame": {
+    "id": 58,
+    "name": "glow_item_frame",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "glow_squid": {
+    "id": 59,
+    "name": "glow_squid",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "goat": {
+    "id": 60,
+    "name": "goat",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "guardian": {
+    "id": 61,
+    "name": "guardian",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "happy_ghast": {
+    "id": 56,
+    "name": "happy_ghast",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "hoglin": {
+    "id": 62,
+    "name": "hoglin",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "hopper_minecart": {
+    "id": 63,
+    "name": "hopper_minecart",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "horse": {
+    "id": 64,
+    "name": "horse",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "husk": {
+    "id": 65,
+    "name": "husk",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "illusioner": {
+    "id": 66,
+    "name": "illusioner",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "interaction": {
+    "id": 67,
+    "name": "interaction",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "iron_golem": {
+    "id": 68,
+    "name": "iron_golem",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "item": {
+    "id": 69,
+    "name": "item",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "item_display": {
+    "id": 70,
+    "name": "item_display",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "item_frame": {
+    "id": 71,
+    "name": "item_frame",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "jungle_boat": {
+    "id": 72,
+    "name": "jungle_boat",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "jungle_chest_boat": {
+    "id": 73,
+    "name": "jungle_chest_boat",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "leash_knot": {
+    "id": 74,
+    "name": "leash_knot",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "lightning_bolt": {
+    "id": 75,
+    "name": "lightning_bolt",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "lingering_potion": {
+    "id": 101,
+    "name": "lingering_potion",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "llama": {
+    "id": 76,
+    "name": "llama",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "llama_spit": {
+    "id": 77,
+    "name": "llama_spit",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "magma_cube": {
+    "id": 78,
+    "name": "magma_cube",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "mangrove_boat": {
+    "id": 79,
+    "name": "mangrove_boat",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "mangrove_chest_boat": {
+    "id": 80,
+    "name": "mangrove_chest_boat",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "marker": {
+    "id": 81,
+    "name": "marker",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "minecart": {
+    "id": 82,
+    "name": "minecart",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "mooshroom": {
+    "id": 83,
+    "name": "mooshroom",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "mule": {
+    "id": 84,
+    "name": "mule",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "oak_boat": {
+    "id": 85,
+    "name": "oak_boat",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "oak_chest_boat": {
+    "id": 86,
+    "name": "oak_chest_boat",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "ocelot": {
+    "id": 87,
+    "name": "ocelot",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "ominous_item_spawner": {
+    "id": 88,
+    "name": "ominous_item_spawner",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "painting": {
+    "id": 89,
+    "name": "painting",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "pale_oak_boat": {
+    "id": 90,
+    "name": "pale_oak_boat",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "pale_oak_chest_boat": {
+    "id": 91,
+    "name": "pale_oak_chest_boat",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "panda": {
+    "id": 92,
+    "name": "panda",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "parrot": {
+    "id": 93,
+    "name": "parrot",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "phantom": {
+    "id": 94,
+    "name": "phantom",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "pig": {
+    "id": 95,
+    "name": "pig",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "piglin": {
+    "id": 96,
+    "name": "piglin",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "piglin_brute": {
+    "id": 97,
+    "name": "piglin_brute",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "pillager": {
+    "id": 98,
+    "name": "pillager",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "player": {
+    "id": 149,
+    "name": "player",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "polar_bear": {
+    "id": 99,
+    "name": "polar_bear",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "pufferfish": {
+    "id": 102,
+    "name": "pufferfish",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "rabbit": {
+    "id": 103,
+    "name": "rabbit",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "ravager": {
+    "id": 104,
+    "name": "ravager",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "salmon": {
+    "id": 105,
+    "name": "salmon",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "sheep": {
+    "id": 106,
+    "name": "sheep",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "shulker": {
+    "id": 107,
+    "name": "shulker",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "shulker_bullet": {
+    "id": 108,
+    "name": "shulker_bullet",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "silverfish": {
+    "id": 109,
+    "name": "silverfish",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "skeleton": {
+    "id": 110,
+    "name": "skeleton",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "skeleton_horse": {
+    "id": 111,
+    "name": "skeleton_horse",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "slime": {
+    "id": 112,
+    "name": "slime",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "small_fireball": {
+    "id": 113,
+    "name": "small_fireball",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "sniffer": {
+    "id": 114,
+    "name": "sniffer",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "snow_golem": {
+    "id": 116,
+    "name": "snow_golem",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "snowball": {
+    "id": 115,
+    "name": "snowball",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "spawner_minecart": {
+    "id": 117,
+    "name": "spawner_minecart",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "spectral_arrow": {
+    "id": 118,
+    "name": "spectral_arrow",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "spider": {
+    "id": 119,
+    "name": "spider",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "splash_potion": {
+    "id": 100,
+    "name": "splash_potion",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "spruce_boat": {
+    "id": 120,
+    "name": "spruce_boat",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "spruce_chest_boat": {
+    "id": 121,
+    "name": "spruce_chest_boat",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "squid": {
+    "id": 122,
+    "name": "squid",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "stray": {
+    "id": 123,
+    "name": "stray",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "strider": {
+    "id": 124,
+    "name": "strider",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "tadpole": {
+    "id": 125,
+    "name": "tadpole",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "text_display": {
+    "id": 126,
+    "name": "text_display",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "tnt": {
+    "id": 127,
+    "name": "tnt",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "tnt_minecart": {
+    "id": 128,
+    "name": "tnt_minecart",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "trader_llama": {
+    "id": 129,
+    "name": "trader_llama",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "trident": {
+    "id": 130,
+    "name": "trident",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "tropical_fish": {
+    "id": 131,
+    "name": "tropical_fish",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "turtle": {
+    "id": 132,
+    "name": "turtle",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "vex": {
+    "id": 133,
+    "name": "vex",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "villager": {
+    "id": 134,
+    "name": "villager",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "vindicator": {
+    "id": 135,
+    "name": "vindicator",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "wandering_trader": {
+    "id": 136,
+    "name": "wandering_trader",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "warden": {
+    "id": 137,
+    "name": "warden",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "wind_charge": {
+    "id": 138,
+    "name": "wind_charge",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "witch": {
+    "id": 139,
+    "name": "witch",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "wither": {
+    "id": 140,
+    "name": "wither",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "wither_skeleton": {
+    "id": 141,
+    "name": "wither_skeleton",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "wither_skull": {
+    "id": 142,
+    "name": "wither_skull",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "wolf": {
+    "id": 143,
+    "name": "wolf",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "zoglin": {
+    "id": 144,
+    "name": "zoglin",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "zombie": {
+    "id": 145,
+    "name": "zombie",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "zombie_horse": {
+    "id": 146,
+    "name": "zombie_horse",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "zombie_villager": {
+    "id": 147,
+    "name": "zombie_villager",
+    "width": 0.6,
+    "height": 1.8
+  },
+  "zombified_piglin": {
+    "id": 148,
+    "name": "zombified_piglin",
+    "width": 0.6,
+    "height": 1.8
+  }
+}
