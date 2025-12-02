@@ -141,24 +141,35 @@ var EntityIDToName = map[int32]string{
 func main() {
 	// For now, generate for 1.21.10 (can be extended for multi-version)
 	version := "1.21.10"
-	versionDir := filepath.Join("..", "minecraft_data", version)
+
+	// Determine base directory (works both when run directly and via go generate)
+	baseDir := ".."
+	if _, err := os.Stat(filepath.Join("..", "tools")); os.IsNotExist(err) {
+		// We're being run from tools/ directory
+		baseDir = ".."
+	} else {
+		// We're being run from data/ directory via go generate
+		baseDir = "."
+	}
+
+	versionDir := filepath.Join(baseDir, "minecraft_data", version)
 
 	fmt.Printf("Generating Go code from %s data...\n", version)
 
 	// Generate blocks.go
-	if err := generateBlocks(versionDir, version); err != nil {
+	if err := generateBlocks(versionDir, version, baseDir); err != nil {
 		fmt.Printf("❌ Error generating blocks: %v\n", err)
 		os.Exit(1)
 	}
 
 	// Generate items.go
-	if err := generateItems(versionDir, version); err != nil {
+	if err := generateItems(versionDir, version, baseDir); err != nil {
 		fmt.Printf("❌ Error generating items: %v\n", err)
 		os.Exit(1)
 	}
 
 	// Generate entities.go
-	if err := generateEntities(versionDir, version); err != nil {
+	if err := generateEntities(versionDir, version, baseDir); err != nil {
 		fmt.Printf("❌ Error generating entities: %v\n", err)
 		os.Exit(1)
 	}
